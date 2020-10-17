@@ -1,11 +1,12 @@
 package com.company;
-public class Tenament extends PrepareHouse {
+public class Tenant extends PrepareHouse {
 
     @Override
     public void construcFoundation() {
         System.out.println("Constructing Foundation with cement,iron rods and sand");
 
     }
+    
 
     @Override
     public void construcPillars() {
@@ -18,6 +19,7 @@ public class Tenament extends PrepareHouse {
         System.out.println("Constructing Walls for tenament");
 
     }
+    // you will need to install lintels before adding a window
 
     @Override
     public void construcWindows() {
