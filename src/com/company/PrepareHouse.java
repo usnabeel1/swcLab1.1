@@ -17,6 +17,7 @@ public abstract class PrepareHouse {
         public abstract void construcPillars();
 
         public abstract void construcWalls();
+        //this is an abstract function for windows
 
         public abstract void construcWindows();
 
