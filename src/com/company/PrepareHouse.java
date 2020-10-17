@@ -3,22 +3,22 @@ public abstract class PrepareHouse {
 
         // Template method is final so subclasses can't override
         public final void constructHouse() {
-            construcFoundation();
-            construcPillars();
-            construcWalls();
-            construcWindows();
+            constructFoundation();
+            constructPillars();
+            constructWalls();
+            constructWindows();
             System.out.println("House is constructed.");
         }
 
         // Methods to be implemented by subclasses
 
-        public abstract void construcFoundation();
+        public abstract void constructFoundation();
 
-        public abstract void construcPillars();
+        public abstract void constructPillars();
 
-        public abstract void construcWalls();
+        public abstract void constructWalls();
 
-        public abstract void construcWindows();
+        public abstract void constructWindows();
 
     }
 
